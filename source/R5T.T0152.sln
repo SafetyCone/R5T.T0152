@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0152", "R5T.T0152\R5T.T0152.csproj", "{72628D01-0648-4A2A-9D5C-621852A43D25}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{D10A6B39-63E4-4B5E-9980-61E4D0FC0566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0142", "..\..\R5T.T0142\source\R5T.T0142\R5T.T0142.csproj", "{A977ABC2-62BF-4C2B-B36F-B30811753CAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{72628D01-0648-4A2A-9D5C-621852A43D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72628D01-0648-4A2A-9D5C-621852A43D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72628D01-0648-4A2A-9D5C-621852A43D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A977ABC2-62BF-4C2B-B36F-B30811753CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A977ABC2-62BF-4C2B-B36F-B30811753CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A977ABC2-62BF-4C2B-B36F-B30811753CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A977ABC2-62BF-4C2B-B36F-B30811753CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A977ABC2-62BF-4C2B-B36F-B30811753CAC} = {D10A6B39-63E4-4B5E-9980-61E4D0FC0566}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C483E92-74B3-4809-B999-34646505ADD4}
