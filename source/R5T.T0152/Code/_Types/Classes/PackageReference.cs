@@ -20,5 +20,13 @@ namespace R5T.T0152
         /// Example: 6.0.11
         /// </summary>
         public Version Version { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// See <see href="https://learn.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets"/>.
+        /// </remarks>
+        public string PrivateAssets { get; set; }
     }
 }
