@@ -22,7 +22,7 @@ namespace R5T.T0152
         public Version Version { get; set; }
 
         /// <summary>
-        /// 
+        /// These assets will be consumed, but won't flow to the parent project.
         /// </summary>
         /// <remarks>
         /// See <see href="https://learn.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets"/>.

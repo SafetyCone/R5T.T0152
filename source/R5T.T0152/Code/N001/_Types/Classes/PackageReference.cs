@@ -25,12 +25,17 @@ namespace R5T.T0152.N001
 
 		#endregion
 
-
+		/// <inheritdoc cref="T0152.PackageReference.Identity"/>
 		public string Identity { get; set; }
-		public string Version { get; set; }
+
+        /// <inheritdoc cref="T0152.PackageReference.Version"/>
+        public string Version { get; set; }
+
+        /// <inheritdoc cref="T0152.PackageReference.PrivateAssets"/>
+        public string PrivateAssets { get; set; }
 
 
-		public bool Equals(PackageReference other)
+        public bool Equals(PackageReference other)
 		{
 			if(other is null)
 			{
