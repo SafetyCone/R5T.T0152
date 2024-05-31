@@ -13,7 +13,7 @@ namespace R5T.T0152
 			var output = new N001.PackageReference
 			{
 				Identity = packageReference.Identity,
-				Version = F0000.VersionOperator.Instance.ToString_Major_Minor_Build(packageReference.Version),
+				Version = Instances.VersionOperator.ToString_Major_Minor_Build(packageReference.Version),
 				PrivateAssets = packageReference.PrivateAssets,
 			};
 

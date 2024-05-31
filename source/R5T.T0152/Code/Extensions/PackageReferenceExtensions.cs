@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace R5T.T0152.Code.Extensions
+
+namespace R5T.T0152.Extensions
 {
 	public static class PackageReferenceExtensions
 	{

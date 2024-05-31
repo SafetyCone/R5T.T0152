@@ -26,6 +26,7 @@ namespace R5T.T0152.N001
 
 		#endregion
 
+
 		/// <inheritdoc cref="T0152.PackageReference.Identity"/>
 		public string Identity { get; set; }
 
